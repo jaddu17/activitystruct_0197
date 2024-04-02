@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct DetailAlamat {
@@ -18,7 +19,7 @@ int main() {
 	cout << "Nomor Mahasiswa : ";
 	getline (cin , mhs.nim);
 	cout << "Nama Mahasiswa : ";
-	getline (cin , mhs.nama);
+	getline (cin,mhs.nama);
 
 	cout << "Alamat Mahasiswa : " << endl;
 	cout << "\t Nama Desa :";
